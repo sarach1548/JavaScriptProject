@@ -1,0 +1,75 @@
+ body{
+    direction: rtl;
+    font-family: height_font;
+  
+}
+@font-face{
+    font-family: my_font;
+    src: url(../packages/fonts/FontsFree-Net-Monster-School.ttf);
+}
+@font-face{
+    font-family: my_font;
+    src: url(../packages/fonts/FontsFree-Net-Monster-School.ttf);
+}
+@font-face{
+    font-family: height_font;
+    src: url(../packages/fonts/AmaticSC-Bold.ttf);
+}
+a{
+    text-decoration: none;
+}
+
+#btnEnter{
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+}
+#divBlk{
+    /* background-color: rgb(41, 39, 39); */
+    background-image: url(../assets/image/header.webp);
+}
+#spanName{
+    width: 80px;
+    height: 40px;
+}
+.yelow{
+    color: rgb(236, 210, 65);
+}
+.black{
+    color: black;
+}
+ /* .fontStyle{
+    
+}  */
+ #divBlk{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#divWht{
+    display: flex;
+     /* justify-content: space-around; */ 
+}
+ #ulNivut{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15%;
+}
+.liNav{
+    margin: 30px;
+}
+#imgLogo{
+    padding: 25px;
+    position: 50% 50%;
+}
+
+
+@media screen and (max-width:700px) and (min-width:400px) {
+    #imgLogo{
+        src:"../../assets/image/images(1).png";
+    }
+}  
+/* #imgLogo{
+    src:"../../assets/image/images(1).png";
+} */

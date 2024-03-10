@@ -1,0 +1,165 @@
+/* body{
+    font: url(packages./font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/image/5556451.jpg);
+    background-size: c;
+}
+#casingLogin{
+    width: 40%;
+    height: 500px;
+    text-align: center;
+}
+#enterForm{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.form-floating{
+    border: none !important;
+    margin-bottom: 0rem !important;
+}
+
+#emailInput{
+    margin-bottom: 0rem !important;
+}
+h1{
+    margin-bottom: 3rem !important;
+    margin-top: 3rem !important;
+
+}
+#enter{
+    text-decoration: none;
+}
+ */
+
+
+/*  */
+
+ /* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
+ @import url("https://fonts.googleapis.com/css?family=Playfair+Display"); */
+ /* @font-face{
+     font-family: my_font;
+     src: url(fonts/FontsFree-Net-Monster-School.ttf);
+   } */
+ body,
+ .message,
+ .form,
+ form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  direction: ltr !important;
+ }
+ 
+ body {
+   height: 100vh;
+   background-image: url(../../assets/image/1000_F_121967750_Z7jRu1tmdESzDIEdcrXg4Bk9ESaEgCM5.jpg);
+   background-size: cover;
+   font-family: "Source Sans Pro", sans-serif;
+   overflow: hidden;
+ }
+ 
+ .container {
+   width: 900px !important;
+   height: 600px;
+   background: white;
+   position: relative;
+   display: grid;
+   grid-template: 100%/50% 50%;
+   box-shadow: 2px 2px 10px 0 rgba(51, 51, 51, 0.2);
+ }
+ 
+ .message {
+   position: absolute;
+   background: white;
+   width: 50%;
+   height: 100%;
+   transition: 0.5s all ease;
+   transform: translateX(100%);
+   z-index: 4;
+ }
+ .message:before {
+   position: absolute;
+   content: "";
+   width: 1px;
+   height: 70%;
+   background: #c3c3d8;
+   opacity: 0;
+   left: 0;
+   top: 15%;
+ }
+ .message .button {
+   margin: 5px 0;
+ }
+ 
+ .signup:before {
+   opacity: 0.3;
+   left: 0;
+ }
+ 
+ .login:before {
+   opacity: 0.3;
+   left: 100%;
+ }
+ 
+ .btn-wrapper {
+   width: 60%;
+ }
+ 
+ .form {
+   width: 100%;
+   height: 100%;
+ }
+ .form--heading {
+   font-size: 46px;
+   height: 104px;
+   color: #8e9e68;
+   font-family: my_font;
+ }
+ .form--signup {
+   border-right: 1px solid #999;
+ }
+ 
+ form {
+   width: 70%;
+ }
+ form > * {
+   margin: 10px;
+ }
+ form input {
+   width: 90%;
+   border: 0;
+   border-bottom: 1px solid #aaa;
+   font-size: 13px;
+   font-weight: 300;
+   color: #797a9e;
+   letter-spacing: 0.11em;
+ }
+ form input::placeholder {
+   color: #333;
+   font-size: 10px;
+ }
+ form input:focus {
+   outline: 0;
+   border-bottom: 1px solid rgba(128, 155, 206, 0.7);
+   transition: 0.6s all ease;
+ }
+ .button {
+   width: 100%;
+   height: 50px;
+   border: 0;
+   outline: 0;
+   color: white;
+   font-size: 20px;
+   font-weight: 400;
+   position: relative;
+   z-index: 3;
+   background: #8e9e68 ;
+   /* background: hwb(14 40% 42%); */
+   font-family: "Source Sans Pro", sans-serif;
+   cursor: pointer;
+ }
+ 

@@ -1,0 +1,42 @@
+.timer{
+    height:100px;
+    width: 100px;
+    background-image:url("../../assets/image/טיימר שחור.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.timer:hover{
+    background-image:url("../../assets/image/טיימר צהוב.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#heart{
+    height:100px;
+    width: 100px;
+    background-image:url("../../assets/image/לב שחור.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#heart:hover{
+    background-image:url("../../assets/image/לב צהוב.png");
+    background-repeat: no-repeat;
+}
+#note{
+    height:100px;
+    width: 100px;
+    background-image:url("../../assets/image/פנקס שחור.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}#note:hover{
+    background-image:url("../../assets/image/פנקס צהוב.png");
+    background-repeat: no-repeat;
+}
+#showNameTitle{
+    background-color: #7b8e4f;
+}
+h3{
+    color: #7b8e4f !important;
+}
+/* #bodyRecipe{
+    font-family: height_font;
+} */

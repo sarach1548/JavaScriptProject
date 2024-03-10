@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./addRecipe.css">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.
+    0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>    
+  <div id="login"></div>
+    <div id="topNav"></div>
+    <h1 class="text-center" style=" padding-top: 250px;">הוספת מתכון</h1>
+    <div id="RecipeDetails">
+        <div class="form-floating">
+            <textarea id="nameOwner" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">שם יוצר</label>
+          </div>
+          <div class="form-floating">
+            <textarea id="nameRecipe" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea"> שם מתכון</label>
+          </div>
+          <div id="time" class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">זמן הכנה</label>
+          </div>
+      
+          <div id="categories" >
+            <div class="category form-floating ">
+            <select  class=" form-select form-control  " multiple size="8" style="height: auto;" id="floatingTextarea" aria-label="Floating label select example">
+              <option selected></option>
+              <!-- <option value="1">פרווה</option>
+              <option value="2">חלבי</option>
+              <option value="3">בשרי</option>
+              <option value="3">מרקים</option>
+              <option value="3"> לחמים</option>
+              <option value="3">פשטידות</option>
+              <option value="3">מלוחים ומאפים</option>
+              <option value="3">סלטים</option> -->
+            </select>
+            <label for="floatingTextarea">בחרי מהרשימה קטגוריה</label>
+          </div>
+        </div>
+          <div class="input-group">
+            <input type="file" class="form-floating form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+            <label for="inputGroupFile04">הכנסת תמונה</label>
+            <!-- <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">הכנסת תמונה</button> -->
+          </div>
+          <div  class="form-floating">
+            <textarea id="ingredients" class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px"></textarea>
+            <label for="floatingTextarea" style="direction: ltr;">מצרכים</label>
+          </div>
+          <div  class="form-floating">
+            <textarea id="howToPrepare" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+            <label for="floatingTextarea2">הוראות הכנה</label>
+          </div>
+          <button type="submit" id="submit" class="btn  btn-outline-secondary">הכנס מתכון למאגר</button>
+         
+    </div>
+</body>
+<script src="../../services/jquery-3.6.4.min.js"></script>
+<script src="../../services/topNav.js"></script>
+<script src="./addRecipe.js"></script>
+<!-- <script src="../../services/login.js"></script> -->
+</html>

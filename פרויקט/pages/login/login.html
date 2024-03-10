@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>הרשמה/התחברות</title>
+</head>
+<body>
+    <!-- <div id="casingLogin">
+        <h1>התחברות</h1>
+        <form id="enterForm">
+            <div id="centerForm" class="center">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                    <label for="floatingInputGroup1">Username</label>
+                </div>
+                <div id="emailInput" class="form-floating mb-3">
+                    <input type="" required="true" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+            </div>
+        </form>
+        <a id="enter" class="enterBtn link-opacity-75-hover black" href="">להתחברות</a>
+        <a id="aLogo" class="link-opacity-75-hover" href="../../pages/home/home.html">לחזרה לעמוד הבית</a>
+    </div> -->
+
+    <!--  -->
+    <div class="container rounded-5">
+        <div class="message signup rounded-5">
+          <div class="btn-wrapper">
+            <button class="button rounded" id="signup">הרשמה</button>
+            <button class="button rounded" id="login">התחברות</button>
+          </div>
+        </div>
+        <div class="form form--signup">
+          <div class="form--heading">ברוך הבא </div>
+          <form autocomplete="off">
+            <input type="text" placeholder="שם" id="name">
+            <input type="text" placeholder="כתובת" id="address" >
+            <!--   pattern="[א-תA-Za-z]+" pattern="[א-תA-Z0-9a-z]+-->
+            <input type="tel" placeholder="פלאפון" id="phone" required="required" >
+            <!-- pattern="^0\d{1,2}-?\d{7}" -->
+            <input type="email" placeholder="מייל" id="email" required="required">
+            <!--  pattern="^[A-Z0-9a-z.]+@{1}[A-Z0-9a-z]+.{1}[A-Z0-9a-z.]+$" -->
+            <input type="password" placeholder="סיסמה" id="password" minlength="4" maxlength="8" required="required">
+            <a class="button rounded text-center text-decoration-none text-white sighUpButton">הירשם</a>
+            <button class="previus button rounded" type="button">חזור לעמוד הקודם</button>
+          </form>
+        </div>
+        <div class="form form--login">
+          <div class="form--heading">ברוך שובך </div>
+          <form autocomplete="off">
+            <input type="text" placeholder="שם" id="loginNM">
+            <input type="password" placeholder="סיסמה" id="loginPW" minlength="4" maxlength="8" required="required">
+            <a class="button rounded text-center text-decoration-none text-white logInButton">התחברות</a>
+          </form>
+        </div>
+      </div>
+    </body>
+<!-- <script src="../../services/topNav.js"></script> -->
+<!-- <script src="../../services/login.js"></script> -->
+<script src="../../services/jquery-3.6.4.min.js"></script>
+<script src="./login.js"></script>
+</html>
